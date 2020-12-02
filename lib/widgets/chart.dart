@@ -40,7 +40,6 @@ class Chart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-
       elevation: 6,
       margin: EdgeInsets.all(20),
       child: Padding(
@@ -50,7 +49,6 @@ class Chart extends StatelessWidget {
           children: groupedTransactionValues.map(
             (data) {
               return Flexible(
-                
                 fit: FlexFit.tight,
                 child: ChartBar(
                     data['day'],
